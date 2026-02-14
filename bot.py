@@ -7,7 +7,7 @@ from datetime import datetime
 
 # --- CẤU HÌNH ---
 # Thay Token nhận được từ @BotFather vào đây
-TOKEN = 'YOUR_TELEGRAM_BOT_TOKEN' 
+TOKEN = os.environ.get('BOT_TOKEN')
 CHAT_ID = '7346983056'
 VN_TZ = timezone('Asia/Ho_Chi_Minh')
 
